@@ -1,7 +1,6 @@
 * {
   padding: 0;
   margin: 0;
-  font-size: 16px;
   font-family: "Be Vietnam Pro", sans-serif;
 }
 
@@ -11,7 +10,7 @@
 }
 
 /*-------- commons --------*/
-.btn-contact {
+.btn-violet {
   width: 134px;
   height: 44px;
   color: white;
@@ -73,6 +72,107 @@
   letter-spacing: 0em;
 }
 
+/*-------- comparison-section--------*/
+
+.comparison-section {
+  color: #FFFFFF;
+  background-color: #3cddf3;
+  height: auto;  
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.comparison-section h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.comparison-section p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/*-------- best-athlete-section --------*/
+
+.best-athlete-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.best-athlete-section h2 {
+  font-size: 3rem;
+  padding: 40px 20px 80px 20px;
+  text-align: center;
+}
+
+.athlete-cards {
+  display: flex;
+  flex-direction: column;
+  color: #b4b4b9;
+}
+
+.athlete-cards .athlete-card:not(:first-child) {
+  display: none;
+}
+
+.athlete-card {
+  position: relative;
+  width: 334.411px;
+  height: auto;
+  text-align: center;
+  background-color: rgb(249, 249, 249);
+  padding: 20px 20px 0px 20px;
+}
+
+.image-container,
+.athlete-card-content {
+  position: relative;
+  top: -65px;
+  padding: 10px 20px;
+}
+
+.athlete-card-content h4 {
+  color: black;
+}
+
+.best-athlete-section a button {
+  margin: 40px 0;
+}
+
+/*-------- team-section --------*/
+
+.team-section {
+  background-color: #3cddf3;
+  height: auto;
+  text-align: center;
+}
+
+.team-section div {
+  font-size: 3rem;
+  font-weight: 500;
+  color: white;
+  padding: 50px 50px 0 50px;
+}
+
+.team-section a button {
+  width: 134px;
+  height: 44px;
+  color: white;
+  background-color: #232851;
+  border-radius: 22px;
+  border: none;
+  margin: 30px;
+}
+
 @media (min-width: 780px) {
   /* -------- header --------*/
   .navbar,
@@ -117,5 +217,60 @@
 
   .banner-content {
     max-width: 50%;
+  }
+
+  /*-------- comparison-section --------*/
+
+  .comparison-section {
+    background-color: #8b48bf;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    gap: 100px;
+  }
+
+ .comparison-section h2{
+    width: 50%;
+    max-width: 500px;
+  }
+
+  .comparison-section p {
+    width: 50%;
+    max-width: 450px;
+  }
+
+  /*-------- best-athlete-section --------*/
+
+  .athlete-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .athlete-cards .athlete-card:not(:first-child) {
+    display: block;
+  }
+
+  /*-------- team-section --------*/
+
+  .team-section {
+    background-color: #8b48bf;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+  }
+
+  .team-section div {
+    padding: 0;
+  }
+
+  .team-section a button {
+    color: #8b48bf;
+    background-color: white;
+    margin: 0;
   }
 }
