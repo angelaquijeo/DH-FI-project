@@ -19,20 +19,23 @@ Integrantes:
 
 
 ## Los parametros que se siguieron para el proyecto fueron los siguientes
-Diseño
+
+### Diseño
 - Mobile: 480px
 - Desktop: 1440px
-Colores
+
+### Colores
 - Violeta: #8B48BF
 - Celeste brillante: #3CDDF3
 - Azul grisáceo oscuro: #1E1E26
 - Azul muy oscuro: #232851
 - Variante gris claro: rgb (249, 249, 249)
-Tipografía
+
+### Tipografía
 - Font size: 16px
 - Family: Be Vietnam Pro
 - Weights: 400, 500, 700
-Icons
+### Icons
 Para los íconos sociales, puede usar los íconos provistos o una biblioteca de íconos de fuentes. Ej:
 - Font Awesome
 
