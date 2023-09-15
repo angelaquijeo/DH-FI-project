@@ -18,7 +18,7 @@ Integrantes:
 - Leslie Fiorelly Zarate Tijera
 
 
-##Los parametros que se siguieron para el proyecto fueron los siguientes
+## Los parametros que se siguieron para el proyecto fueron los siguientes
 Diseño
 - Mobile: 480px
 - Desktop: 1440px
@@ -36,6 +36,6 @@ Icons
 Para los íconos sociales, puede usar los íconos provistos o una biblioteca de íconos de fuentes. Ej:
 - Font Awesome
 
-##Conclusiones
+## Conclusiones
 El proyecto se realizó para el curso de FrontEnd I de la escuela de Digital House. 
 En el proyecto se implementó todo lo aprendido en las 8 semanas de clase. Se utilizó FlexBox, pseudoclases, pseusoelementos, etiquetas de formularios, mediaquerys, el uso correcto de las etiquetas, estructura básica(buenas practicas) de HTML y CSS. El uso correcto de fonts, imagenes e iconos.
